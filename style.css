@@ -73,7 +73,7 @@
  #text-content{
      display: flex;
      justify-content: space-between;
-     align-items: center;
+    
      margin: 1.25rem 0 0;
      height: 1.25rem;
  }
@@ -86,7 +86,8 @@
      width: calc(100%*5);
      height: 100%;
      display: flex;
-     transition: 0.8s ease;
+     justify-content: space-between;
+     transition: 0.5s ease;
      line-height: 0;
      margin-left: 0;
  }
@@ -103,19 +104,19 @@
  #slide4:checked ~ #bullets label:nth-child(4) {
     background: #444;
  }
- #slide1:checked ~ #slides .inner,
+ #slide1:checked ~ #slides .inner ,
  #slide1:checked ~ .text-content .text-slider .text_line{
      margin-left: 0%;
  }
- #slide2:checked ~ #slides .inner,
+ #slide2:checked ~ #slides .inner ,
  #slide2:checked ~ .text-content .text-slider .text_line{
      margin-left: -100%;
  }
- #slide3:checked ~ #slides .inner,
+ #slide3:checked ~ #slides .inner ,
  #slide3:checked ~ .text-content .text-slider .text_line{
      margin-left: -200%;
  }
- #slide4:checked ~ #slides .inner,
+ #slide4:checked ~ #slides .inner ,
  #slide4:checked ~ .text-content .text-slider .text_line{
      margin-left: -300%;
  }
